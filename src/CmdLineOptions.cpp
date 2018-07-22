@@ -49,7 +49,7 @@ namespace xmreg
                  "enable users to have the index page on autorefresh")
                 ("enable-emission-monitor", value<bool>()->default_value(false)->implicit_value(true),
                  "enable Monero total emission monitoring thread")
-                ("port,p", value<string>()->default_value("8081"),
+                ("port,p", value<string>()->default_value("80"),
                  "default explorer port")
                 ("bindaddr,x", value<string>()->default_value("0.0.0.0"),
                  "default bind address for the explorer")
