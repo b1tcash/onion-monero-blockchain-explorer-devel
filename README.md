@@ -615,7 +615,7 @@ curl  -w "\n" -X GET "http://127.0.0.1:8081/api/outputs?txhash=17049bc5f2d9fbca1
 
 Proving transfer:
 
-We use recipient's address (i.e. not our address from which we sent xmr to recipient).
+We use recipient's address (i.e. not our address from which we sent b1t to recipient).
 For the viewkey, we use `tx_private_key` (although the GET variable is still called `viewkey`) that we obtained by sending this txs.
 
 ```bash
